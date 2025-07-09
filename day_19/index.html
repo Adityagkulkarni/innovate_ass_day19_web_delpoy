@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Aditya Kulkarni</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home Section -->
+      <section id="home">
+        <h2>Welcome</h2>
+        <p>
+          Hi! I’m a web developer passionate about creating beautiful and
+          functional websites.
+        </p>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I have experience in HTML, CSS, and JavaScript. This is my portfolio
+          website to showcase my work.
+        </p>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-gallery">
+          <div class="project">
+            <img src="6A90F4F4-444A-4AE0-9CDE-7ED331C54D87_1_105_c.jpeg" alt="Project 1" />
+            <a href="https://foodzeeapp.netlify.app" target="_blank"
+              ><h3>Foodzee – Food Delivery App</h3></a
+            >
+            <p>
+              Built with React and Supabase, including real-time updates and
+              user authentication. Designed RESTful backend, managed auth logic,
+              and state management.
+            </p>
+          </div>
+          <div class="project">
+            <img src="Screenshot 2024-09-28 at 1.23.18 AM.png" alt="Project 2" />
+            <a href="https://www.biokart.com/" target="_blank"
+              ><h3>Hospital Management System</h3></a
+            >
+            <p>
+              Created a full-stack solution for hospital resource and patient
+              tracking..
+            </p>
+          </div>
+          <div class="project">
+            <img src="74EFCFAA-BB52-4B6D-8D12-7D7042015985_1_201_a.jpeg" alt="Project 3" />
+            <a href="https://adityakulkarni.netlify.app" target="_blank"
+              ><h3>Portfolio Website</h3></a
+            >
+            <p>
+              Designed and deployed personal website to showcase projects and
+              skills. Built using React.js with responsive UI/UX.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Form Section -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+          <label for="name">Your Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            aria-label="Enter your name"
+            required
+          />
+
+          <label for="email">Your Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            aria-label="Enter your email"
+            required
+          />
+
+          <label for="message">Your Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            aria-label="Enter your message"
+            required
+          ></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
